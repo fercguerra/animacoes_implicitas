@@ -14,7 +14,9 @@ class _HomepageState extends State<Homepage> {
       appBar: AppBar(
         title: const Text('Desafio do Botão Flutuante'),
       ),
-      body: const Center(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+      ),
     );
   }
 }
